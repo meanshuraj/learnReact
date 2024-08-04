@@ -12,13 +12,13 @@ const addValue=()=>{
    setCounter(counter);
   }
   else{
-    setCounter(20);
+    setCounter(0);
   }
 }
 
 const removeValue=()=>{
   if(counter==0){
-    setCounter(0);
+    setCounter(20);
   }
   else
   setCounter(counter-1);
