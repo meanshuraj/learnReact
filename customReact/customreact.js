@@ -1,0 +1,1 @@
+const mainContainser=document.querySelector('#root');
