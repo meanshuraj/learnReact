@@ -5,7 +5,6 @@ import Card from "./Components/Card";
  
 function App() {
   const [themeMode,setThemeMode]=useState("light");
-  const [count, setCount] = useState(0)
 
   const lightTheme=()=>{
     setThemeMode("light");
